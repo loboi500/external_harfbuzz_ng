@@ -1,14 +1,3 @@
-# *** THIS PACKAGE HAS SPECIAL LICENSING CONDITIONS.  PLEASE
-#     CONSULT THE OWNERS AND opensource-licensing@google.com BEFORE
-#     DEPENDING ON IT IN YOUR PROJECT. ***
-third_party {
-  # would be NOTICE save for GPL in:
-  #   m4/ax_code_coverage.m4
-  # and RESTRICTED save for OFL in:
-  #   test/shaping/data/in-house/COPYING
-  #   test/fuzzing/fonts/clusterfuzz-testcase-hb-fuzzer-5662671558934528
-  # Also take care when vendoring in not to import content like the
-  # culp/ligatures font with CC-BY-NC-SA licensing. Google does not want to
-  # host CC-BY-NC* content.
-  license_type: BY_EXCEPTION_ONLY
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:660b80a61cc9ffc647264997ed5d37a7a4a74c39c7bd5ab2ca3ab2b36e8867fe
+size 610

@@ -1,14 +1,3 @@
-# Process this file with automake to produce Makefile.in
-
-NULL =
-SUBDIRS = \
-	in-house \
-	text-rendering-tests \
-	aots \
-	$(NULL)
-
-# Convenience targets:
-lib:
-	@$(MAKE) $(AM_MAKEFLAGS) -C $(top_builddir)/src lib
-
--include $(top_srcdir)/git.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:78b3dad131166a54d2cd5367a1cd14db5e199564529c24c5f99d13bcf0ec609c
+size 243

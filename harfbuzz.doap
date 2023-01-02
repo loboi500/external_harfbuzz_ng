@@ -1,24 +1,3 @@
-<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns="http://usefulinc.com/ns/doap#">
-
-  <name xml:lang="en">harfbuzz</name>
-  <shortdesc xml:lang="en">Text shaping library</shortdesc>
-
-  <homepage
-  rdf:resource="http://harfbuzz.org/" />
-  <mailing-list
-  rdf:resource="http://lists.freedesktop.org/mailman/listinfo/harfbuzz" />
-  <!--download-page
-  rdf:resource=""/-->
-  <bug-database
-  rdf:resource="https://github.com/harfbuzz/harfbuzz/issues" />
-
-  <maintainer>
-    <foaf:Person>
-      <foaf:name>Behdad Esfahbod</foaf:name>
-      <foaf:mbox rdf:resource="mailto:harfbuzz@behdad.org" />
-    </foaf:Person>
-  </maintainer>
-</Project>
+version https://git-lfs.github.com/spec/v1
+oid sha256:59517b4eebb9525a14d435b97d4b48b3305cd4171e1ffd4dc200e8537ff1bc6b
+size 775

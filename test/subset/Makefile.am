@@ -1,23 +1,3 @@
-# Process this file with automake to produce Makefile.in
-
-NULL =
-EXTRA_DIST =
-CLEANFILES =
-SUBDIRS = data
-
-# Convenience targets:
-lib: libs # Always build subsetter lib in this subdir
-libs:
-	@$(MAKE) $(AM_MAKEFLAGS) -C $(top_builddir)/src libs
-
-EXTRA_DIST += \
-	CMakeLists.txt \
-	run-tests.py \
-	subset_test_suite.py \
-	$(NULL)
-
-CLEANFILES += \
-	subset_test_suite.py[co] \
-	$(NULL)
-
--include $(top_srcdir)/git.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:68a19275268ecfda3bd7ae7ff38b25b0a430200f343bb1d8c75d0142cefa6266
+size 413

@@ -1,15 +1,3 @@
-# Process this file with automake to produce Makefile.in
-
-NULL =
-EXTRA_DIST =
-SUBDIRS = api shaping fuzzing subset
-
-EXTRA_DIST += \
-	CMakeLists.txt \
-	$(NULL)
-
-# Convenience targets:
-lib:
-	@$(MAKE) $(AM_MAKEFLAGS) -C $(top_builddir)/src lib
-
--include $(top_srcdir)/git.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:10dccef8828df6a8cd51dcef31837e4e78571bc636638284a79a182d5472535c
+size 272

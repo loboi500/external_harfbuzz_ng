@@ -1,7 +1,3 @@
-Tests in this directory are automatically imported from the
-text-rendering-tests repository owned by Unicode Consortium:
-
-  https://github.com/unicode-org/text-rendering-tests
-
-To import the latest version of that test suite just run
-"make update" from a build in a git checkout.
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fa0fff1b8395c527950a58ddf77795b8b489db5004813abd012ff65ae7ba5e6
+size 280

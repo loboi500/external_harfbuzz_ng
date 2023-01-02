@@ -1,28 +1,3 @@
-API issues:
-===========
-
-- API to accept a list of languages?
-
-- Remove hb_ot_shape_glyphs_closure()?
-
-
-API additions
-=============
-
-- Language to/from script.
-
-- Add hb-cairo glue
-
-- Add sanitize API.
-
-- Add query / enumeration API for aalt-like features?
-
-- Add segmentation API
-
-- Add hb-fribidi glue?
-
-
-hb-view / hb-shape enhancements:
-===============================
-
-- Add --width, --height, --auto-size, --ink-box, --align, etc?
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e4fdd1faeadf61b5bd11e7d81544bcaf0423ba8f90aad2919fa1babfaa30972
+size 436
